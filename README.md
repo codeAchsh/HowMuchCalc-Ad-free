@@ -19,7 +19,7 @@
 
 ## 🌐 ご利用方法
 
-1. アプリを開きます 👉 [こちらをクリック]([https://your-app-link.com](https://codeachsh.github.io/HowMuchCalc-Ad-free/))
+1. アプリを開きます 👉 [こちらをクリック]([[https://your-app-link.com](https://codeachsh.github.io/HowMuchCalc-Ad-free/)]
 2. 支払い金額を入力すると、ポイント還元額がすぐに表示されます
 3. 広告が表示されますが、これは無料運営を支える大切な仕組みです🙏
 
@@ -29,7 +29,7 @@
 
 ### 🆓 無料版
 
-![無料版](..//assets/images/muryo-ban.png)
+![無料版のスクリーンショット]([..//assets/images/muryo-ban.png))
 
 ---
 

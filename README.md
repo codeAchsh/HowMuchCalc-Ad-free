@@ -29,7 +29,7 @@
 
 ### 🆓 無料版
 
-![無料版のスクリーンショット](..//assets/images/muryo-ban.png)
+![無料版のスクリーンショット](./assets/images/muryo-ban.png)
 
 ---
 
@@ -65,4 +65,4 @@ A. 有料版では広告なし。画面を華やかにデザインしました�
 
 ## 📄 ライセンス
 
-MIT License © 2025 [codeAchsh](https://github.com/ycodeAchsh)
+MIT License © 2025 [codeAchsh](https://github.com/codeAchsh)

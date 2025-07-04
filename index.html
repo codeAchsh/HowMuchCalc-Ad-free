@@ -1,81 +1,77 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NZRY2EF1Q4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NZRY2EF1Q4');
-</script>
-
-<!-- Google AdSenseが発行する広告タグを読み込む-->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3717622242490727"
-    crossorigin="anonymous"></script>
-
-  <link rel="shortcut icon" href="assets/images/calc.ico">
   <title>ポイントいくら電卓</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" href="assets/images/calc.ico" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 
+  <!-- Googleタグマネージャー -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NZRY2EF1Q4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-NZRY2EF1Q4');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3717622242490727" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
-        
-        <h1><img src="assets/images/calc.ico" alt="cal" style="width:30px; height: auto;"> 電卓<br>ポイントいくら？</h1>
-        <div class="buy">
-            <div class="rate">
-            <label for="rateInput">還元率（%）</label>
-            <input type="number" id="rateInput" value="30" />
-        </div>
-            <div>
-                <span>￥</span>
-                <input type="number" id="amountInput" placeholder="購入金額を入力してね" />
-            </div>
-            <div id="result">
-                <span>ポイント</span>
-                <span></span>
-            </div>
-            <p class="hint">※設定した還元率に応じて最大還元額は変わります</p>
-        </div>
+  <div class="container">
+    <h1><img src="assets/images/calc.ico" alt="cal" class="icon"> 電卓<br>ポイントいくら？</h1>
+
+    <div class="buy">
+      <div class="form-row">
+        <label for="rateInput">還元率（%）</label>
+        <input type="number" id="rateInput" value="30" />
+      </div>
+
+      <div class="form-row">
+        <label for="amountInput">￥</label>
+        <input type="number" id="amountInput" placeholder="購入金額を入力してね" />
+      </div>
+
+      <div id="result">
+        <span>ポイント</span>
+        <span></span>
+      </div>
+
+      <p class="hint">※設定した還元率に応じて最大還元額は変わります</p>
     </div>
-    <footer>
-        <div class="ad-template-link">
-            <p style="font-weight:bold;">🧁 作品紹介リンク</p>
-            <div>
-                <a href="https://codeachsh.github.io/All-template-Japanese-/" target="_blank">
-                    📦 便利なテンプレート一覧はこちら！
-                </a>
-            </div>
-            <div>
-                <a href="https://note.com/chill_2525" target="_blank" class="note-link">
-                ✨ブログやテンプレート、成長の記録をまとめて公開中 → note.com/chill_2525
-                </a>
-            </div>
-        </div>
-       
+  </div>
 
-        <div class="ad-area">
-            <p style="font-weight:bold;">📢 スポンサー広告</p>
+  <footer>
+    <div class="ad-template-link">
+      <p>🧁 作品紹介リンク</p>
+      <div>
+        <a href="https://codeachsh.github.io/All-template-Japanese-/" target="_blank">
+          📦 便利なテンプレート一覧はこちら！
+        </a>
+      </div>
+      <div>
+        <a href="https://note.com/chill_2525" target="_blank" class="note-link">
+          ✨ブログやテンプレート、成長の記録をまとめて公開中 → note.com/chill_2525
+        </a>
+      </div>
+    </div>
 
-        <!-- Google AdSenseが発行する広告タグをここに挿入 -->
-        <!-- HowMuchCalFooterAd -->
-        <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-3717622242490727"
-            data-ad-slot="3231610441"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+    <div class="ad-area">
+      <p style="font-weight:bold;">📢 スポンサー広告</p>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-3717622242490727"
+           data-ad-slot="3231610441"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </footer>
 
-        </div>
-    </footer>
   <script src="assets/js/javascript.js"></script>
 </body>
 </html>
